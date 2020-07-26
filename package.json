@@ -1,0 +1,21 @@
+{
+	"name": "nem-typescript-v3",
+	"version": "1.0.0",
+	"description": "Node.js + Express + MongoDB + Typescript 서버 템플릿",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"serve": "nodemon nodemon.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Andy-0414/NEM-typescript-v3.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Andy-0414/NEM-typescript-v3/issues"
+	},
+	"homepage": "https://github.com/Andy-0414/NEM-typescript-v3#readme"
+}
