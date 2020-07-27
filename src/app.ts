@@ -5,6 +5,7 @@ import compression from "compression";
 import morgan from "morgan";
 
 import "dotenv/config";
+import Log from "./modules/Log";
 
 const app: express.Application = express(); // 서버 객체
 const port = process.env.PORT || 3000;
@@ -26,6 +27,7 @@ app.use(express.json({ limit: "20mb" })); // json 지원
 
 const server = app.listen(port, () => {
 	// 서버가 열렸을 시 콜백
+	Log.i(`port : ${port}`);
 });
 
 export default app;
