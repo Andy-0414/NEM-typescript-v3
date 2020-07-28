@@ -17,3 +17,4 @@ Node.js + Express + MongoDB + Typescript 서버 템플릿
 -   변수명은 camelCase, 모듈명은 PascalCase
 -   module는 싱글톤 패턴의 모듈
 -   schema는 MongoDB 모델 저장, 파일 이름과 컬렉션 이름은 단수 표기
+-   TDD 도입
