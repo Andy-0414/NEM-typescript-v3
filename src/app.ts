@@ -5,7 +5,7 @@ import compression from "compression";
 import morgan from "morgan";
 
 import "dotenv/config";
-import Log from "./modules/Log";
+import Log from "./module/Log";
 
 const app: express.Application = express(); // 서버 객체
 const port = process.env.PORT || 3000;
