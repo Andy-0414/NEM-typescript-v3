@@ -10,6 +10,8 @@ import Log from "./module/Log";
 const app: express.Application = express();
 const port = process.env.PORT || 3000;
 
+app.use(morgan("dev")); // 통신 로그
+
 app.use(cors()); // CORS 설정 미들웨어
 app.use(helmet()); // 보안 미들웨어
 app.use(compression()); // 데이터 압축 미들웨어
