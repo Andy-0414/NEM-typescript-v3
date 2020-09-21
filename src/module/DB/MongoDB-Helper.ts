@@ -9,7 +9,7 @@ class MongoDBHelper {
 	public isDatabaseConnect: boolean = false;
 
 	public readonly ENV: string = process.env.NODE_ENV || "development"; // 개발 환경
-	public readonly DB_URI: string = process.env.DB_URI || process.env.MONGODB_URI || "mongodb://localhost/NEM-TEMPLATE-V2"; // DB URL
+	public readonly DB_URI: string = process.env.DB_URI || process.env.MONGODB_URI || "mongodb://localhost/NEM-TEMPLATE-V3"; // DB URL
 	/**
 	 * @description MongoDB 활성화
 	 * @param {string}url MongoDB URL

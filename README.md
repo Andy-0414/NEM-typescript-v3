@@ -4,6 +4,11 @@ Node.js + Express + MongoDB + Typescript 서버 템플릿
 
 개발중...
 
+# Description
+
+-   module/Log.ts 로그 관리 모듈
+-   module/DB/MongoDB-Helper.ts MongoDB 관리 모듈
+
 # Functions
 
 -   JWT + AccessToken, RefreshToken 을 사용한 로그인 시스템
